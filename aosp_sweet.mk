@@ -26,9 +26,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Google Assistant
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
-# Pixel Charger
-USE_PIXEL_CHARGER := true
-
 # Face unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
