@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
